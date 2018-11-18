@@ -255,34 +255,6 @@
 		8B12807E20FFF3B0002A139F /* NasalizationRg-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B12807D20FFF3B0002A139F /* NasalizationRg-Regular.ttf */; };
 		8B12807F20FFF3C1002A139F /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B12807120FC1515002A139F /* Roboto-Regular.ttf */; };
 		8B12808020FFF3C4002A139F /* AlexBrush-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B12807220FC61C3002A139F /* AlexBrush-Regular.ttf */; };
-		8B137E9E20F90EE2006DEB3A /* keccak.c in Sources */ = {isa = PBXBuildFile; fileRef = 8B137E5020F90D11006DEB3A /* keccak.c */; };
-		8B137E9F20F90EE5006DEB3A /* sph_sha2.c in Sources */ = {isa = PBXBuildFile; fileRef = 8B137E5220F90D11006DEB3A /* sph_sha2.c */; };
-		8B137EA020F90EE7006DEB3A /* sph_whirlpool.c in Sources */ = {isa = PBXBuildFile; fileRef = 8B137E5320F90D11006DEB3A /* sph_whirlpool.c */; };
-		8B137EA120F90EEB006DEB3A /* aes_helper.c in Sources */ = {isa = PBXBuildFile; fileRef = 8B137E5420F90D11006DEB3A /* aes_helper.c */; };
-		8B137EA320F90EF1006DEB3A /* sph_sha512.c in Sources */ = {isa = PBXBuildFile; fileRef = 8B137E6720F90D11006DEB3A /* sph_sha512.c */; };
-		8B137EA420F90EF4006DEB3A /* sph_hamsi.c in Sources */ = {isa = PBXBuildFile; fileRef = 8B137E6920F90D11006DEB3A /* sph_hamsi.c */; };
-		8B137EA520F90EF7006DEB3A /* simd.c in Sources */ = {isa = PBXBuildFile; fileRef = 8B137E6B20F90D11006DEB3A /* simd.c */; };
-		8B137EA620F90EFA006DEB3A /* luffa.c in Sources */ = {isa = PBXBuildFile; fileRef = 8B137E6C20F90D11006DEB3A /* luffa.c */; };
-		8B137EA720F90EFD006DEB3A /* blake.c in Sources */ = {isa = PBXBuildFile; fileRef = 8B137E6D20F90D11006DEB3A /* blake.c */; };
-		8B137EA820F90F01006DEB3A /* hmac_sha256.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B137E6F20F90D11006DEB3A /* hmac_sha256.cpp */; };
-		8B137EA920F90F3C006DEB3A /* sph_hamsi_helper.c in Sources */ = {isa = PBXBuildFile; fileRef = 8B137E7120F90D11006DEB3A /* sph_hamsi_helper.c */; };
-		8B137EAA20F90F41006DEB3A /* sha1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B137E7620F90D11006DEB3A /* sha1.cpp */; };
-		8B137EAB20F90F44006DEB3A /* sha512.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B137E7820F90D11006DEB3A /* sha512.cpp */; };
-		8B137EAC20F90F47006DEB3A /* sph_fugue.c in Sources */ = {isa = PBXBuildFile; fileRef = 8B137E7920F90D11006DEB3A /* sph_fugue.c */; };
-		8B137EAD20F90F49006DEB3A /* cubehash.c in Sources */ = {isa = PBXBuildFile; fileRef = 8B137E7B20F90D11006DEB3A /* cubehash.c */; };
-		8B137EAE20F90F4C006DEB3A /* hmac_sha512.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B137E7E20F90D11006DEB3A /* hmac_sha512.cpp */; };
-		8B137EAF20F90F57006DEB3A /* jh.c in Sources */ = {isa = PBXBuildFile; fileRef = 8B137E7F20F90D11006DEB3A /* jh.c */; };
-		8B137EB020F90F5A006DEB3A /* shavite.c in Sources */ = {isa = PBXBuildFile; fileRef = 8B137E8020F90D11006DEB3A /* shavite.c */; };
-		8B137EB120F90F5D006DEB3A /* groestl.c in Sources */ = {isa = PBXBuildFile; fileRef = 8B137E8420F90D11006DEB3A /* groestl.c */; };
-		8B137EB220F90F60006DEB3A /* bmw.c in Sources */ = {isa = PBXBuildFile; fileRef = 8B137E8620F90D11006DEB3A /* bmw.c */; };
-		8B137EB320F90F63006DEB3A /* sha256.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B137E8720F90D11006DEB3A /* sha256.cpp */; };
-		8B137EB420F90F66006DEB3A /* sha256_sse4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B137E8820F90D11006DEB3A /* sha256_sse4.cpp */; };
-		8B137EB520F90F6B006DEB3A /* chacha20.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B137E8A20F90D11006DEB3A /* chacha20.cpp */; };
-		8B137EB620F90F70006DEB3A /* ripemd160.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B137E9220F90D11006DEB3A /* ripemd160.cpp */; };
-		8B137EB720F90F72006DEB3A /* skein.c in Sources */ = {isa = PBXBuildFile; fileRef = 8B137E9120F90D11006DEB3A /* skein.c */; };
-		8B137EB820F90F76006DEB3A /* aes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B137E9320F90D11006DEB3A /* aes.cpp */; };
-		8B137EB920F90F79006DEB3A /* sph_shabal.c in Sources */ = {isa = PBXBuildFile; fileRef = 8B137E9520F90D11006DEB3A /* sph_shabal.c */; };
-		8B137EBB20F90F83006DEB3A /* echo.c in Sources */ = {isa = PBXBuildFile; fileRef = 8B137E9D20F90D11006DEB3A /* echo.c */; };
 		8B69BB6B210A395A00F1FE2D /* Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B69BB6A210A395A00F1FE2D /* Version.swift */; };
 		8B69BB6F211113B500F1FE2D /* StartOneTimeWipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B69BB6E211113B500F1FE2D /* StartOneTimeWipeViewController.swift */; };
 		8B69BB712114BD2E00F1FE2D /* SupportWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B69BB702114BD2E00F1FE2D /* SupportWebViewController.swift */; };
@@ -1496,60 +1468,6 @@
 		8B12807920FFEF66002A139F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B12807A20FFEF66002A139F /* Icon.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Icon.xcassets; sourceTree = "<group>"; };
 		8B12807D20FFF3B0002A139F /* NasalizationRg-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NasalizationRg-Regular.ttf"; sourceTree = "<group>"; };
-		8B137E5020F90D11006DEB3A /* keccak.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = keccak.c; sourceTree = "<group>"; };
-		8B137E5120F90D11006DEB3A /* sph_bmw.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sph_bmw.h; sourceTree = "<group>"; };
-		8B137E5220F90D11006DEB3A /* sph_sha2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sph_sha2.c; sourceTree = "<group>"; };
-		8B137E5320F90D11006DEB3A /* sph_whirlpool.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sph_whirlpool.c; sourceTree = "<group>"; };
-		8B137E5420F90D11006DEB3A /* aes_helper.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = aes_helper.c; sourceTree = "<group>"; };
-		8B137E5520F90D11006DEB3A /* ripemd160.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ripemd160.h; sourceTree = "<group>"; };
-		8B137E6720F90D11006DEB3A /* sph_sha512.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sph_sha512.c; sourceTree = "<group>"; };
-		8B137E6820F90D11006DEB3A /* sph_cubehash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sph_cubehash.h; sourceTree = "<group>"; };
-		8B137E6920F90D11006DEB3A /* sph_hamsi.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sph_hamsi.c; sourceTree = "<group>"; };
-		8B137E6A20F90D11006DEB3A /* sph_blake.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sph_blake.h; sourceTree = "<group>"; };
-		8B137E6B20F90D11006DEB3A /* simd.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = simd.c; sourceTree = "<group>"; };
-		8B137E6C20F90D11006DEB3A /* luffa.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = luffa.c; sourceTree = "<group>"; };
-		8B137E6D20F90D11006DEB3A /* blake.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = blake.c; sourceTree = "<group>"; };
-		8B137E6E20F90D11006DEB3A /* sph_groestl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sph_groestl.h; sourceTree = "<group>"; };
-		8B137E6F20F90D11006DEB3A /* hmac_sha256.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = hmac_sha256.cpp; sourceTree = "<group>"; };
-		8B137E7020F90D11006DEB3A /* sph_shavite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sph_shavite.h; sourceTree = "<group>"; };
-		8B137E7120F90D11006DEB3A /* sph_hamsi_helper.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sph_hamsi_helper.c; sourceTree = "<group>"; };
-		8B137E7220F90D11006DEB3A /* hmac_sha512.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hmac_sha512.h; sourceTree = "<group>"; };
-		8B137E7320F90D11006DEB3A /* sha256.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sha256.h; sourceTree = "<group>"; };
-		8B137E7420F90D11006DEB3A /* sph_keccak.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sph_keccak.h; sourceTree = "<group>"; };
-		8B137E7520F90D11006DEB3A /* sph_luffa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sph_luffa.h; sourceTree = "<group>"; };
-		8B137E7620F90D11006DEB3A /* sha1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sha1.cpp; sourceTree = "<group>"; };
-		8B137E7720F90D11006DEB3A /* sph_shabal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sph_shabal.h; sourceTree = "<group>"; };
-		8B137E7820F90D11006DEB3A /* sha512.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sha512.cpp; sourceTree = "<group>"; };
-		8B137E7920F90D11006DEB3A /* sph_fugue.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sph_fugue.c; sourceTree = "<group>"; };
-		8B137E7A20F90D11006DEB3A /* sph_echo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sph_echo.h; sourceTree = "<group>"; };
-		8B137E7B20F90D11006DEB3A /* cubehash.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cubehash.c; sourceTree = "<group>"; };
-		8B137E7C20F90D11006DEB3A /* hmac_sha256.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hmac_sha256.h; sourceTree = "<group>"; };
-		8B137E7D20F90D11006DEB3A /* sha512.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sha512.h; sourceTree = "<group>"; };
-		8B137E7E20F90D11006DEB3A /* hmac_sha512.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = hmac_sha512.cpp; sourceTree = "<group>"; };
-		8B137E7F20F90D11006DEB3A /* jh.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = jh.c; sourceTree = "<group>"; };
-		8B137E8020F90D11006DEB3A /* shavite.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = shavite.c; sourceTree = "<group>"; };
-		8B137E8120F90D11006DEB3A /* sph_whirlpool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sph_whirlpool.h; sourceTree = "<group>"; };
-		8B137E8220F90D11006DEB3A /* sph_sha2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sph_sha2.h; sourceTree = "<group>"; };
-		8B137E8320F90D11006DEB3A /* common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
-		8B137E8420F90D11006DEB3A /* groestl.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = groestl.c; sourceTree = "<group>"; };
-		8B137E8520F90D11006DEB3A /* aes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = aes.h; sourceTree = "<group>"; };
-		8B137E8620F90D11006DEB3A /* bmw.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bmw.c; sourceTree = "<group>"; };
-		8B137E8720F90D11006DEB3A /* sha256.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sha256.cpp; sourceTree = "<group>"; };
-		8B137E8820F90D11006DEB3A /* sha256_sse4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sha256_sse4.cpp; sourceTree = "<group>"; };
-		8B137E8920F90D11006DEB3A /* chacha20.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = chacha20.h; sourceTree = "<group>"; };
-		8B137E8A20F90D11006DEB3A /* chacha20.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = chacha20.cpp; sourceTree = "<group>"; };
-		8B137E8B20F90D11006DEB3A /* sph_simd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sph_simd.h; sourceTree = "<group>"; };
-		8B137E8C20F90D11006DEB3A /* sph_jh.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sph_jh.h; sourceTree = "<group>"; };
-		8B137E8D20F90D11006DEB3A /* sph_hamsi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sph_hamsi.h; sourceTree = "<group>"; };
-		8B137E8E20F90D11006DEB3A /* sph_skein.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sph_skein.h; sourceTree = "<group>"; };
-		8B137E8F20F90D11006DEB3A /* sha1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sha1.h; sourceTree = "<group>"; };
-		8B137E9020F90D11006DEB3A /* sph_types.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sph_types.h; sourceTree = "<group>"; };
-		8B137E9120F90D11006DEB3A /* skein.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = skein.c; sourceTree = "<group>"; };
-		8B137E9220F90D11006DEB3A /* ripemd160.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ripemd160.cpp; sourceTree = "<group>"; };
-		8B137E9320F90D11006DEB3A /* aes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = aes.cpp; sourceTree = "<group>"; };
-		8B137E9420F90D11006DEB3A /* sph_fugue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sph_fugue.h; sourceTree = "<group>"; };
-		8B137E9520F90D11006DEB3A /* sph_shabal.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sph_shabal.c; sourceTree = "<group>"; };
-		8B137E9D20F90D11006DEB3A /* echo.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = echo.c; sourceTree = "<group>"; };
 		8B69BB6A210A395A00F1FE2D /* Version.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Version.swift; sourceTree = "<group>"; };
 		8B69BB6E211113B500F1FE2D /* StartOneTimeWipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartOneTimeWipeViewController.swift; sourceTree = "<group>"; };
 		8B69BB702114BD2E00F1FE2D /* SupportWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportWebViewController.swift; sourceTree = "<group>"; };
@@ -2975,7 +2893,6 @@
 		75DC77AB1DAA05B500932D9A /* core */ = {
 			isa = PBXGroup;
 			children = (
-				8B137E4F20F90D11006DEB3A /* crypto */,
 				75DC77AE1DAA05B500932D9A /* BRAddress.c */,
 				5A7EA96721A0973A00991793 /* sha3 */,
 				5A7EA96621A0973900991793 /* timetravel10.c */,
@@ -3029,67 +2946,6 @@
 			);
 			name = sqlite3;
 			path = Modules/sqlite3;
-			sourceTree = "<group>";
-		};
-		8B137E4F20F90D11006DEB3A /* crypto */ = {
-			isa = PBXGroup;
-			children = (
-				8B137E5020F90D11006DEB3A /* keccak.c */,
-				8B137E5120F90D11006DEB3A /* sph_bmw.h */,
-				8B137E5220F90D11006DEB3A /* sph_sha2.c */,
-				8B137E5320F90D11006DEB3A /* sph_whirlpool.c */,
-				8B137E5420F90D11006DEB3A /* aes_helper.c */,
-				8B137E5520F90D11006DEB3A /* ripemd160.h */,
-				8B137E6720F90D11006DEB3A /* sph_sha512.c */,
-				8B137E6820F90D11006DEB3A /* sph_cubehash.h */,
-				8B137E6920F90D11006DEB3A /* sph_hamsi.c */,
-				8B137E6A20F90D11006DEB3A /* sph_blake.h */,
-				8B137E6B20F90D11006DEB3A /* simd.c */,
-				8B137E6C20F90D11006DEB3A /* luffa.c */,
-				8B137E6D20F90D11006DEB3A /* blake.c */,
-				8B137E6E20F90D11006DEB3A /* sph_groestl.h */,
-				8B137E6F20F90D11006DEB3A /* hmac_sha256.cpp */,
-				8B137E7020F90D11006DEB3A /* sph_shavite.h */,
-				8B137E7120F90D11006DEB3A /* sph_hamsi_helper.c */,
-				8B137E7220F90D11006DEB3A /* hmac_sha512.h */,
-				8B137E7320F90D11006DEB3A /* sha256.h */,
-				8B137E7420F90D11006DEB3A /* sph_keccak.h */,
-				8B137E7520F90D11006DEB3A /* sph_luffa.h */,
-				8B137E7620F90D11006DEB3A /* sha1.cpp */,
-				8B137E7720F90D11006DEB3A /* sph_shabal.h */,
-				8B137E7820F90D11006DEB3A /* sha512.cpp */,
-				8B137E7920F90D11006DEB3A /* sph_fugue.c */,
-				8B137E7A20F90D11006DEB3A /* sph_echo.h */,
-				8B137E7B20F90D11006DEB3A /* cubehash.c */,
-				8B137E7C20F90D11006DEB3A /* hmac_sha256.h */,
-				8B137E7D20F90D11006DEB3A /* sha512.h */,
-				8B137E7E20F90D11006DEB3A /* hmac_sha512.cpp */,
-				8B137E7F20F90D11006DEB3A /* jh.c */,
-				8B137E8020F90D11006DEB3A /* shavite.c */,
-				8B137E8120F90D11006DEB3A /* sph_whirlpool.h */,
-				8B137E8220F90D11006DEB3A /* sph_sha2.h */,
-				8B137E8320F90D11006DEB3A /* common.h */,
-				8B137E8420F90D11006DEB3A /* groestl.c */,
-				8B137E8520F90D11006DEB3A /* aes.h */,
-				8B137E8620F90D11006DEB3A /* bmw.c */,
-				8B137E8720F90D11006DEB3A /* sha256.cpp */,
-				8B137E8820F90D11006DEB3A /* sha256_sse4.cpp */,
-				8B137E8920F90D11006DEB3A /* chacha20.h */,
-				8B137E8A20F90D11006DEB3A /* chacha20.cpp */,
-				8B137E8B20F90D11006DEB3A /* sph_simd.h */,
-				8B137E8C20F90D11006DEB3A /* sph_jh.h */,
-				8B137E8D20F90D11006DEB3A /* sph_hamsi.h */,
-				8B137E8E20F90D11006DEB3A /* sph_skein.h */,
-				8B137E8F20F90D11006DEB3A /* sha1.h */,
-				8B137E9020F90D11006DEB3A /* sph_types.h */,
-				8B137E9120F90D11006DEB3A /* skein.c */,
-				8B137E9220F90D11006DEB3A /* ripemd160.cpp */,
-				8B137E9320F90D11006DEB3A /* aes.cpp */,
-				8B137E9420F90D11006DEB3A /* sph_fugue.h */,
-				8B137E9520F90D11006DEB3A /* sph_shabal.c */,
-				8B137E9D20F90D11006DEB3A /* echo.c */,
-			);
-			path = crypto;
 			sourceTree = "<group>";
 		};
 		CE1E5F241EF081F300BD0F72 /* Import */ = {
@@ -4183,7 +4039,6 @@
 				CEF3E82D1DE528BF007C0A9E /* AlertView.swift in Sources */,
 				CEF3E82B1DE51612007C0A9E /* GradientCircle.swift in Sources */,
 				7CCD9F6C1FEC1FA300175E64 /* TxAmountCell.swift in Sources */,
-				8B137E9E20F90EE2006DEB3A /* keccak.c in Sources */,
 				CE124CFE1E68F57700DFA146 /* Async.swift in Sources */,
 				22A9A94D1DF61945000F0016 /* BRHTTPFileMiddleware.swift in Sources */,
 				CE8644251F2C160200033129 /* ConfirmationViewController.swift in Sources */,
@@ -4226,10 +4081,8 @@
 				CE20C90E1DBE52B000C8397A /* UIView+BRWAdditions.swift in Sources */,
 				8B12807420FFB501002A139F /* Circle.swift in Sources */,
 				7C35E719200AF3940064808F /* TxListViewModel.swift in Sources */,
-				8B137EA120F90EEB006DEB3A /* aes_helper.c in Sources */,
 				CE6314831E08E5BB00D4AFE0 /* UIView+InitAdditions.swift in Sources */,
 				CEC6AA401DEFC87300EE5AFD /* SendViewController.swift in Sources */,
-				8B137EAC20F90F47006DEB3A /* sph_fugue.c in Sources */,
 				CEAA9E8F1DC074410066731D /* StartPaperPhraseViewController.swift in Sources */,
 				CEC6F8451E886723000795B8 /* PaymentRequest.swift in Sources */,
 				CE274A611FD7C902000A4E62 /* RootNavigationController.swift in Sources */,
@@ -4245,12 +4098,10 @@
 				CEEC70921E95DA4400EF788E /* GradientSwitch.swift in Sources */,
 				CE0CD1591DBFBCF5004023DA /* ModalPresenter.swift in Sources */,
 				CEE20C2F1EA3E5820086F724 /* BlinkingView.swift in Sources */,
-				8B137EA020F90EE7006DEB3A /* sph_whirlpool.c in Sources */,
 				CEC6AA441DEFCDE900EE5AFD /* ModalViewController.swift in Sources */,
 				CEEC70831E90C07C00EF788E /* Setting.swift in Sources */,
 				CE45C1F91E74B400002C3847 /* ManageWalletViewController.swift in Sources */,
 				5A7EA98C21A0973B00991793 /* groestl.c in Sources */,
-				8B137EAA20F90F41006DEB3A /* sha1.cpp in Sources */,
 				CE03EC721EF193810038E3A8 /* String+Keys.swift in Sources */,
 				CE92F9F01DED0C790046B516 /* PresentModalAnimator.swift in Sources */,
 				CEAA9E951DC1659F0066731D /* UILabel+BRWAdditions.swift in Sources */,
@@ -4263,7 +4114,6 @@
 				CECCE5AE1E04AD6300D99448 /* AddressCell.swift in Sources */,
 				5A7EA98321A0973A00991793 /* keccak.c in Sources */,
 				CE6BCF5D1EE9E89A0029849C /* CustomTitleView.swift in Sources */,
-				8B137EB820F90F76006DEB3A /* aes.cpp in Sources */,
 				CE2DC1391EBC36EE000FE727 /* Prompt.swift in Sources */,
 				CE83DE2A1E9EB7F600D07636 /* SendAmountCell.swift in Sources */,
 				CEAFC8611E5D5B0500E4FD06 /* SegmentedButton.swift in Sources */,
@@ -4273,10 +4123,8 @@
 				CEC4CF091F0C84AB00E5C82E /* UIViewController+Alerts.swift in Sources */,
 				CE27F9591E2C8EA300F7F7F2 /* Amount.swift in Sources */,
 				CE1280F61EEA855C00D27649 /* Date+Additions.swift in Sources */,
-				8B137EA920F90F3C006DEB3A /* sph_hamsi_helper.c in Sources */,
 				CED82D4E1E575A5500507A9B /* main.swift in Sources */,
 				CEEC708E1E954AAB00EF788E /* AboutCell.swift in Sources */,
-				8B137EAE20F90F4C006DEB3A /* hmac_sha512.cpp in Sources */,
 				22A9A9461DF61945000F0016 /* BRAPIClient.swift in Sources */,
 				CEAA9E9B1DC2B9320066731D /* ConfirmPhrase.swift in Sources */,
 				75A2A7941DA5934300A983D8 /* AppDelegate.swift in Sources */,
@@ -4294,36 +4142,28 @@
 				CEE20C2D1EA288FA0086F724 /* UpdatingLabel.swift in Sources */,
 				CE3D4C591EF743EF0016B1C8 /* Functions.swift in Sources */,
 				CEE20C341EA5B4550086F724 /* ArticleIds.swift in Sources */,
-				8B137EB420F90F66006DEB3A /* sha256_sse4.cpp in Sources */,
 				CEE65DF01E39056F0002994D /* Rate.swift in Sources */,
-				8B137EAF20F90F57006DEB3A /* jh.c in Sources */,
 				CEDB09331FEAA21C001AF56A /* TxDetailViewModel.swift in Sources */,
 				CEE20C361EA5B4620086F724 /* Constants.swift in Sources */,
 				CEEC707F1E8D6B4100EF788E /* SettingsViewController.swift in Sources */,
 				CEEE92F11EBA7CBA00B7AC9C /* RequestAmountViewController.swift in Sources */,
-				8B137E9F20F90EE5006DEB3A /* sph_sha2.c in Sources */,
 				CE8CD8DF1E2E825100785E02 /* VerifyPinViewController.swift in Sources */,
 				CE916E331EDA800E00D641D6 /* UserDefaultsUpdater.swift in Sources */,
 				7CA238142011A97C00A4A59D /* TxDetailViewController.swift in Sources */,
 				CE20C9111DBE5B6F00C8397A /* Rect.swift in Sources */,
 				CE20C9071DBC587200C8397A /* StartViewController.swift in Sources */,
-				8B137EA420F90EF4006DEB3A /* sph_hamsi.c in Sources */,
 				223DB2151DF654940076A151 /* WalletManager.swift in Sources */,
-				8B137EB620F90F70006DEB3A /* ripemd160.cpp in Sources */,
 				22A9A94E1DF61945000F0016 /* BRHTTPIndexMiddleware.swift in Sources */,
-				8B137EB920F90F79006DEB3A /* sph_shabal.c in Sources */,
 				CE124CF81E67A8E500DFA146 /* TransactionDirection.swift in Sources */,
 				CE8CD8DD1E2D9EF200785E02 /* Sender.swift in Sources */,
 				CE4DFB2C1E9BE5880014009E /* ReScanViewController.swift in Sources */,
 				7C9724661FF07B9A004248C4 /* StatusPip.swift in Sources */,
 				7C35E712200AC2080064808F /* TxViewModel.swift in Sources */,
 				CE8F0AE31EB91BB500AA7642 /* SearchHeaderView.swift in Sources */,
-				8B137EB720F90F72006DEB3A /* skein.c in Sources */,
 				22A9A9551DF61945000F0016 /* BRTar.swift in Sources */,
 				CEAA9E971DC18E1F0066731D /* PhraseView.swift in Sources */,
 				CEF3E82F1DE534C5007C0A9E /* GradientView.swift in Sources */,
 				CE6D0F991DE8B75900BD4BCF /* DismissModalAnimator.swift in Sources */,
-				8B137EB220F90F60006DEB3A /* bmw.c in Sources */,
 				CE4C1CC61ED65D830063E184 /* DrawableCircle.swift in Sources */,
 				CE8CD8E31E31978100785E02 /* LoginBackgroundTriangle.swift in Sources */,
 				CEEC708C1E95461A00EF788E /* AboutViewController.swift in Sources */,
@@ -4339,13 +4179,10 @@
 				22A9A94B1DF61945000F0016 /* BRCoding.swift in Sources */,
 				22A9A9561DF61945000F0016 /* BRWalletPlugin.swift in Sources */,
 				CE6B829A1FE3A7B6007A41B9 /* UIScrollView+Additions.swift in Sources */,
-				8B137EB320F90F63006DEB3A /* sha256.cpp in Sources */,
 				CEF3E8361DE60222007C0A9E /* ModalNavigationController.swift in Sources */,
 				CED811E21EB302DD003A8D1E /* WatchTransaction.swift in Sources */,
 				CEB909FA1E5FF242001804DC /* RecoverWalletIntroViewController.swift in Sources */,
-				8B137EA720F90EFD006DEB3A /* blake.c in Sources */,
 				CE25BF911DF9ADE700BC67B6 /* UIImage+Utils.swift in Sources */,
-				8B137EB520F90F6B006DEB3A /* chacha20.cpp in Sources */,
 				7C7F18ED1FED9A3B0030230E /* TxStatusIndicator.swift in Sources */,
 				CEAA9E911DC0FDFE0066731D /* UIViewPropertyAnimator+BRWAdditions.swift in Sources */,
 				22E773041EE7813000397E0E /* Bonjour.swift in Sources */,
@@ -4358,14 +4195,12 @@
 				CE6DCC301E6666470044257B /* NonScrollingCollectionView.swift in Sources */,
 				7CF913BE1FFC7DC30085CB70 /* TxMemoCell.swift in Sources */,
 				22A9A9471DF61945000F0016 /* BRAPIProxy.swift in Sources */,
-				8B137EBB20F90F83006DEB3A /* echo.c in Sources */,
 				CE20C9011DBBFFF800C8397A /* Actions.swift in Sources */,
 				CE20C9191DBE7B8200C8397A /* State.swift in Sources */,
 				CEEC70811E90C04700EF788E /* SeparatorCell.swift in Sources */,
 				CE20C8FE1DBB133A00C8397A /* SimpleRedux.swift in Sources */,
 				7C230E752037AD52002F0FF1 /* SyncingIndicator.swift in Sources */,
 				5A7EA98B21A0973B00991793 /* shavite.c in Sources */,
-				8B137EB120F90F5D006DEB3A /* groestl.c in Sources */,
 				CE4B6C201E233C2C00CF935B /* UITableView+Additions.swift in Sources */,
 				CE760EDC1E561DF900EFAC2B /* SecurityCenterViewController.swift in Sources */,
 				CEEC70861E94397D00EF788E /* UserDefaults+Additions.swift in Sources */,
@@ -4374,10 +4209,8 @@
 				7CA3BC302006864C00517BF7 /* Currency.swift in Sources */,
 				CE3D4C571EF5D5740016B1C8 /* ReachabilityMonitor.swift in Sources */,
 				7CBA74E62022784D00FBBFA9 /* AssetListViewModel.swift in Sources */,
-				8B137EA820F90F01006DEB3A /* hmac_sha256.cpp in Sources */,
 				5A7EA98A21A0973B00991793 /* jh.c in Sources */,
 				CEC7E594200D7C830056F410 /* Sentry.swift in Sources */,
-				8B137EAD20F90F49006DEB3A /* cubehash.c in Sources */,
 				22A9A9571DF61945000F0016 /* BRWebSocket.swift in Sources */,
 				CE4DFB2E1E9C26DA0014009E /* ShareDataViewController.swift in Sources */,
 				CE1E5F261EF083A600BD0F72 /* StartImportViewController.swift in Sources */,
@@ -4393,7 +4226,6 @@
 				CE6B6B4A1E54C0CB00B31405 /* SecurityCenterCell.swift in Sources */,
 				CED811AA1EB2B2D1003A8D1E /* SharedConstants.swift in Sources */,
 				CE36454C1E7B42850079D0CF /* WhiteDecimalPad.swift in Sources */,
-				8B137EB020F90F5A006DEB3A /* shavite.c in Sources */,
 				5A7EA98421A0973A00991793 /* aes_helper.c in Sources */,
 				CE5F21D91E4A922700C47B8E /* DismissLoginAnimator.swift in Sources */,
 				CECCE5A51E02408300D99448 /* UIView+FrameChangeBlocking.swift in Sources */,
@@ -4403,16 +4235,12 @@
 				22A9A9481DF61945000F0016 /* BRBitID.swift in Sources */,
 				CEBF32F41DDCE12900348FC6 /* AccountFooterView.swift in Sources */,
 				CE9057181DFF0FA8006BA848 /* String+Additions.swift in Sources */,
-				8B137EA520F90EF7006DEB3A /* simd.c in Sources */,
 				CED341331EF5A5C00014912A /* InAppAlert.swift in Sources */,
 				CE47A8E01F7DA54000FF35BA /* UIScreen+Additions.swift in Sources */,
-				8B137EA320F90EF1006DEB3A /* sph_sha512.c in Sources */,
 				5A7EA98721A0973A00991793 /* luffa.c in Sources */,
-				8B137EA620F90EFA006DEB3A /* luffa.c in Sources */,
 				222C42521E904C5000078EB5 /* AssociatedObject.swift in Sources */,
 				CEB909F51E5FE63D001804DC /* EnterPhraseViewController.swift in Sources */,
 				CE6D0F971DE8B73A00BD4BCF /* ModalTransitionDelegate.swift in Sources */,
-				8B137EAB20F90F44006DEB3A /* sha512.cpp in Sources */,
 				1B1AFFA01FB7EF7C00E61908 /* BiometricsSettingsViewController.swift in Sources */,
 				8B69BB712114BD2E00F1FE2D /* SupportWebViewController.swift in Sources */,
 				1B1AFFA11FB7EF7C00E61908 /* BiometricsSpendingLimitViewController.swift in Sources */,

@@ -42,7 +42,6 @@ void BRSHA256(void *md32, const void *data, size_t len);
 void BRSHA224(void *md28, const void *data, size_t len);
 
 void BRX16R(void *md32, const void *data, size_t len);
-void timetravel10_hash(const char* input, char* output);
 
 
     // double-sha-256 = sha-256(sha-256(x))

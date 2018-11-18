@@ -205,9 +205,9 @@ BRMerkleBlock *BRMerkleBlockParse(const uint8_t *buf, size_t bufLen)
         }
         
         //BRSHA256_2(&block->blockHash, buf, 80);
-        if(&block->timestamp >= (uint32_t*) 1493124696 ){
+        if(&block->timestamp >= 1493124696 ){
             //use timetravel algo
-            timetravel10_hash(&block->blockHash, buf);
+            timetravel10_hash(buf,&block->blockHash,80);
         }
         else {
             //use scrypt algo
@@ -359,9 +359,9 @@ int BRMerkleBlockIsValid(const BRMerkleBlock *block, uint32_t currentTime)
 
     // check if merkle root is correct
     if (block->totalTx > 0  && ! UInt256Eq(merkleRoot, block->merkleRoot)) r = 0;
-    
-    // check if timestamp is too far in future
-    if (block->timestamp > currentTime + BLOCK_MAX_TIME_DRIFT) r = 0;
+//    
+//    // check if timestamp is too far in future
+//    if (block->timestamp > currentTime + BLOCK_MAX_TIME_DRIFT) r = 0;
     
 //    // check if proof-of-work target is out of range
 //    if (target == 0 || target & 0x00800000 || size > maxsize || (size == maxsize && target > maxtarget)) r = 0;

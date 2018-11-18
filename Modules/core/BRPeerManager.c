@@ -64,7 +64,11 @@ static const char *dns_seeds[] = {
 // blockchain checkpoints - these are also used as starting points for partial chain downloads, so they need to be at
 // difficulty transition boundaries in order to verify the block difficulty at the immediately following transition
 static const struct { uint32_t height; const char *hash; uint32_t timestamp; uint32_t target; } checkpoint_array[] = {
-    {      0, "000008876cc4a4550d368ec40f7a1e8a17b665f422be9c53266b51ca3ab8b1d1", 1492973331, 0x1e0ffff0 }
+    {      0, "604148281e5c4b7f2487e5d03cd60d8e6f69411d613f6448034508cea52e9574", 1492973331, 0x1e0ffff0 },
+    {1,"2d94a35159bf59897eb709534f707ac587112ef8e2db52a7c7153099e77cecf3",1492995597,0x1e0ffff0 },
+    {2,"0x580a107e111bea326b64dc098c057a3b96622c1521c23e4f5b51647aa5e41ecb",1492995988,0x1e0fffff},
+    {50000,"d3cdc4bd5bdafa908fae273f5cca9fda527b49e3fe727c6fe9122f28f2afbf6d",1505605850,0x1b0f6cc9},
+    {100000,"0x99103dc00414fd4c90b03cd1a770626e2ac681baa10e5f7f7ce089a6d98f0dad",,0x1b135157
 };
 
 static const char *dns_seeds[] = {
