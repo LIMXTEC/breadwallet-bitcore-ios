@@ -1,5 +1,5 @@
 
-[![Bitcore Wallet](https://ravencoin.org/wp-content/uploads/2017/12/cropped-ravencoinpolytrue.png)](https://itunes.apple.com/app/breadwallet/id885251393)
+[![Bitcore Wallet]
 
 Bitcore wallet is a fork of Bread -- Thank you to the entire Bread team.
 
@@ -62,7 +62,7 @@ Any jailbreak app can grant itself access to every other app's keychain data. Th
 
 **Bitcore Wallet** is open source and available under the terms of the MIT license.
 
-Source code is available at https://github.com/BitcoreProject/bitcorewallet-ios
+Source code is available at https://github.com/LIMXTEC/breadwallet-bitcore-ios
 
 
 ## Build instructions
