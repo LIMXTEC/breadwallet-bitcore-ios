@@ -2,7 +2,7 @@
 [![Bitcore Wallet]
 
 Bitcore wallet is a fork of Bread -- Thank you to the entire Bread team.
-
+Note:there are issues with the walelt atm,this isnt recommended for daily use until the issues are cleared
 
 ## The easy and secure Bitcore wallet
 
